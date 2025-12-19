@@ -327,6 +327,7 @@ int main(int argc, char *argv[]) {
     printf("========================================\n");
     
     // Verificación opcional (comparar con CPU si no es CPU)
+    /*
     if (algorithm != 1) {
         C_ref = (float*)malloc(size);
         float cpu_time = matrix_multiply_cpu(A, B, C_ref, n, 1); // Usar 1 hilo para verificación
@@ -337,6 +338,7 @@ int main(int argc, char *argv[]) {
         }
         free(C_ref);
     }
+    */
     
     // Liberar memoria
     free(A);

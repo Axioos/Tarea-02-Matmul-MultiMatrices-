@@ -12,3 +12,14 @@ para ejecutar usar:
 
 **GPU con memoria compartida, matriz 2048x2048**
 ./prog 2048 1 3
+
+**Generar resultados**
+
+export LC_ALL=C
+
+make benchmark > resultados.txt
+
+**Generar Graficos**
+
+*REQUIERE matplotlib*
+python3 graficos.py
