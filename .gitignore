@@ -1,0 +1,18 @@
+# Ejecutables y binarios
+prog
+*.o
+
+# Archivos de depuración y errores
+core*
+*.gch
+
+# Resultados de rendimiento y datos
+resultados.txt
+
+# Visualizaciones (Punto 7)
+graficos/
+*.png
+
+# Archivos temporales de Python (si se generan)
+__pycache__/
+*.pyc
